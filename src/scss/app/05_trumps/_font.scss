@@ -1,0 +1,8 @@
+$font-sizes-list: 14, 16, 18, 20, 22, 26, 28, 30;
+
+@each $size in $font-sizes-list {
+
+  .f-#{$size} {
+    @include font-size($size);
+  }
+}

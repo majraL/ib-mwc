@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="48px" viewBox="0 0 37 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>ic-security</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-7" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="assets" transform="translate(-1001.000000, -369.000000)" stroke-width="1.778">
+            <g id="ic-security" transform="translate(1001.000000, 369.000000)">
+                <path d="M35.1958,23.7603 C35.1958,36.7773 22.6948,44.2383 19.0368,46.1423 C18.4188,46.4633 17.6658,46.4633 17.0488,46.1423 C13.3898,44.2383 0.8888,36.7773 0.8888,23.7603 L0.8888,2.1013 C0.8888,1.4323 1.4998,0.8893 2.2538,0.8893 L33.8318,0.8893 C34.5858,0.8893 35.1958,1.4323 35.1958,2.1013 L35.1958,23.7603 Z" id="Stroke-1" stroke="#373A3B"></path>
+                <polyline id="Stroke-3" stroke="#FF5A00" stroke-linecap="round" points="18.0786 21.8131 18.0786 23.7971 17.0006 25.2901"></polyline>
+                <polyline id="Stroke-5" stroke="#FF5A00" stroke-linecap="round" points="19.2329 25.2896 18.0789 23.7966 19.6049 23.0836"></polyline>
+                <line x1="18.0786" y1="23.7969" x2="16.4216" y2="23.0839" id="Stroke-7" stroke="#FF5A00" stroke-linecap="round"></line>
+                <polyline id="Stroke-9" stroke="#FF5A00" stroke-linecap="round" points="27.2017 21.8131 27.2017 23.7971 26.1247 25.2901"></polyline>
+                <polyline id="Stroke-11" stroke="#FF5A00" stroke-linecap="round" points="28.356 25.2896 27.202 23.7966 28.728 23.0836"></polyline>
+                <line x1="27.2017" y1="23.7969" x2="25.5457" y2="23.0839" id="Stroke-13" stroke="#FF5A00" stroke-linecap="round"></line>
+                <polyline id="Stroke-15" stroke="#FF5A00" stroke-linecap="round" points="8.9551 21.8131 8.9551 23.7971 7.8771 25.2901"></polyline>
+                <polyline id="Stroke-17" stroke="#FF5A00" stroke-linecap="round" points="10.1089 25.2896 8.9549 23.7966 10.4819 23.0836"></polyline>
+                <line x1="8.9551" y1="23.7969" x2="7.2991" y2="23.0839" id="Stroke-19" stroke="#FF5A00" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

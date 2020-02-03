@@ -1,0 +1,35 @@
+@mixin font-thin {
+  font-family: "FSElliotPro-Thin";
+}
+
+@mixin font-thinItalic {
+  font-family: "FSElliotPro-ThinItalic";
+}
+
+@mixin font-light {
+  font-family: "FSElliotPro-Light";
+}
+
+@mixin font-lightItalic {
+  font-family: "FSElliotPro-LightItalic";
+}
+
+@mixin font-regular {
+  font-family: "FSElliotPro-Regular";
+}
+
+@mixin font-italic {
+  font-family: "FSElliotPro-Italic";
+}
+
+@mixin font-bold {
+  font-family: "FSElliotPro-Bold";
+}
+
+@mixin font-boldItalic {
+  font-family: "FSElliotPro-BoldItalic";
+}
+
+@mixin font-heavy {
+  font-family: "FSElliotPro-Heavy";
+}

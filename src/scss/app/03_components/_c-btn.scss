@@ -1,0 +1,63 @@
+// Buttons
+
+// Global settings
+$btn-padding-y: .8889rem;
+$btn-padding-x: 1.7778rem;
+$btn-border-radius: 7px;
+$btn-font-size: 14px;
+$btn-font-weight: $font-weight-bold;
+
+// Primary button settings
+$btn-primary-bg: $brand-primary;
+$btn-primary-bg-hover: $brand-primary-dark;
+
+
+$btn-primary-color: $white;
+$btn-primary-color-hover: $white;
+
+$btn-primary-border-width: 0;
+$btn-primary-border-width-hover: $btn-primary-border-width;
+$btn-primary-border-style: solid;
+$btn-primary-border-style-hover: $btn-primary-border-style;
+$btn-primary-border-color: $white;
+$btn-primary-border-color-hover: $brand-primary-dark;
+
+// Secondary button settings
+// $btn-secondary-bg: $brand-secondary;
+// $btn-secondary-bg-hover: $brand-secondary-dark;
+
+
+// $btn-secondary-color: $white;
+// $btn-secondary-color-hover: $white;
+
+// $btn-secondary-border-width: 0;
+// $btn-secondary-border-width-hover: $btn-secondary-border-width;
+// $btn-secondary-border-style: solid;
+// $btn-secondary-border-style-hover: $btn-secondary-border-style;
+// $btn-secondary-border-color: $white;
+// $btn-secondary-border-color-hover: $brand-secondary-dark;
+
+// TODO: add btn secondary options
+// Primary button settings
+.c-btn {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  max-width: 100%;
+  padding: $btn-padding-y $btn-padding-x;
+  border-radius: $btn-border-radius;
+  border: none;
+  box-shadow: 0 8px 23px rgba(81,114,221,.08);
+  transition: all .2s cubic-bezier(.455,.03,.515,.955);
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  font-size: .88889rem;
+  font-weight: 700;
+  line-height: 1.3125;
+}
+
+button.c-btn:hover {
+  cursor: pointer;
+}
