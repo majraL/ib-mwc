@@ -1,3 +1,8 @@
 .c-txt {
   opacity: .8;
+
+  .o-header & {
+    margin-top: 20px;
+    line-height: 34px;
+  }
 }

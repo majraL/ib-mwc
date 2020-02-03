@@ -3,61 +3,61 @@
 ------------------------------------------------------------------------------------*/
 @font-face {
   font-family: "FSElliotPro-Thin";
-  src: url("../../fonts/fs-elliot-pro/FSElliotPro-Thin.woff") format("woff2"), url("../../fonts/fs-elliot-pro/FSElliotPro-Thin.woff") format("woff"), url("../../fonts/fs-elliot-pro/FSElliotPro-Thin.ttf") format("truetype");
+  src: url("../../font/fs-elliot-pro/FSElliotPro-Thin.woff") format("woff2"), url("../../font/fs-elliot-pro/FSElliotPro-Thin.woff") format("woff"), url("../../font/fs-elliot-pro/FSElliotPro-Thin.ttf") format("truetype");
   font-weight: 100;
   font-style: normal; }
 
 @font-face {
   font-family: "FSElliotPro-ThinItalic";
-  src: url("../../fonts/fs-elliot-pro/FSElliotPro-ThinItalic.woff2") format("woff2"), url("../../fonts/fs-elliot-pro/FSElliotPro-ThinItalic.woff") format("woff"), url("../../fonts/fs-elliot-pro/FSElliotPro-ThinItalic.ttf") format("truetype");
+  src: url("../../font/fs-elliot-pro/FSElliotPro-ThinItalic.woff2") format("woff2"), url("../../font/fs-elliot-pro/FSElliotPro-ThinItalic.woff") format("woff"), url("../../font/fs-elliot-pro/FSElliotPro-ThinItalic.ttf") format("truetype");
   font-weight: 100;
   font-style: italic; }
 
 @font-face {
   font-family: "FSElliotPro-Light";
-  src: url("../../fonts/fs-elliot-pro/FSElliotPro-Light.woff") format("woff2"), url("../../fonts/fs-elliot-pro/FSElliotPro-Light.woff") format("woff"), url("../../fonts/fs-elliot-pro/FSElliotPro-Light.ttf") format("truetype");
+  src: url("../../font/fs-elliot-pro/FSElliotPro-Light.woff") format("woff2"), url("../../font/fs-elliot-pro/FSElliotPro-Light.woff") format("woff"), url("../../font/fs-elliot-pro/FSElliotPro-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: "FSElliotPro-LightItalic";
-  src: url("../../fonts/fs-elliot-pro/FSElliotPro-LightItalic.woff2") format("woff2"), url("../../fonts/fs-elliot-pro/FSElliotPro-LightItalic.woff") format("woff"), url("../../fonts/fs-elliot-pro/FSElliotPro-LightItalic.ttf") format("truetype");
+  src: url("../../font/fs-elliot-pro/FSElliotPro-LightItalic.woff2") format("woff2"), url("../../font/fs-elliot-pro/FSElliotPro-LightItalic.woff") format("woff"), url("../../font/fs-elliot-pro/FSElliotPro-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic; }
 
 @font-face {
   font-family: "FSElliotPro-Regular";
-  src: url("../../fonts/fs-elliot-pro/FSElliotPro-Regular.woff2") format("woff2"), url("../../fonts/fs-elliot-pro/FSElliotPro-Regular.woff") format("woff"), url("../../fonts/fs-elliot-pro/FSElliotPro-Regular.ttf") format("truetype");
+  src: url("../../font/fs-elliot-pro/FSElliotPro-Regular.woff2") format("woff2"), url("../../font/fs-elliot-pro/FSElliotPro-Regular.woff") format("woff"), url("../../font/fs-elliot-pro/FSElliotPro-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "FSElliotPro-Italic";
-  src: url("../../fonts/fs-elliot-pro/FSElliotPro-Italic.woff2") format("woff2"), url("../../fonts/fs-elliot-pro/FSElliotPro-Italic.woff") format("woff"), url("../../fonts/fs-elliot-pro/FSElliotPro-Italic.ttf") format("truetype");
+  src: url("../../font/fs-elliot-pro/FSElliotPro-Italic.woff2") format("woff2"), url("../../font/fs-elliot-pro/FSElliotPro-Italic.woff") format("woff"), url("../../font/fs-elliot-pro/FSElliotPro-Italic.ttf") format("truetype");
   font-weight: 400;
   font-style: italic; }
 
 @font-face {
   font-family: "FSElliotPro-Bold";
-  src: url("../../fonts/fs-elliot-pro/FSElliotPro-Bold.woff2") format("woff2"), url("../../fonts/fs-elliot-pro/FSElliotPro-Bold.woff") format("woff"), url("../../fonts/fs-elliot-pro/FSElliotPro-Bold.ttf") format("truetype");
+  src: url("../../font/fs-elliot-pro/FSElliotPro-Bold.woff2") format("woff2"), url("../../font/fs-elliot-pro/FSElliotPro-Bold.woff") format("woff"), url("../../font/fs-elliot-pro/FSElliotPro-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: "FSElliotPro-BoldItalic";
-  src: url("../../fonts/fs-elliot-pro/FSElliotPro-BoldItalic.woff2") format("woff2"), url("../../fonts/fs-elliot-pro/FSElliotPro-BoldItalic.woff") format("woff"), url("../../fonts/fs-elliot-pro/FSElliotPro-BoldItalic.ttf") format("truetype");
+  src: url("../../font/fs-elliot-pro/FSElliotPro-BoldItalic.woff2") format("woff2"), url("../../font/fs-elliot-pro/FSElliotPro-BoldItalic.woff") format("woff"), url("../../font/fs-elliot-pro/FSElliotPro-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-style: italic; }
 
 @font-face {
   font-family: "FSElliotPro-Heavy";
-  src: url("../../fonts/fs-elliot-pro/FSElliotPro-Heavy.woff2") format("woff2"), url("../../fonts/fs-elliot-pro/FSElliotPro-Heavy.woff") format("woff"), url("../../fonts/fs-elliot-pro/FSElliotPro-Heavy.ttf") format("truetype");
+  src: url("../../font/fs-elliot-pro/FSElliotPro-Heavy.woff2") format("woff2"), url("../../font/fs-elliot-pro/FSElliotPro-Heavy.woff") format("woff"), url("../../font/fs-elliot-pro/FSElliotPro-Heavy.ttf") format("truetype");
   font-weight: 900;
   font-style: normal; }
 
 @font-face {
   font-family: "FSElliotPro-HeavyItalic";
-  src: url("../../fonts/fs-elliot-pro/FSElliotPro-HeavyItalic.woff2") format("woff2"), url("../../fonts/fs-elliot-pro/FSElliotPro-HeavyItalic.woff") format("woff"), url("../../fonts/fs-elliot-pro/FSElliotPro-HeavyItalic.ttf") format("truetype");
+  src: url("../../font/fs-elliot-pro/FSElliotPro-HeavyItalic.woff2") format("woff2"), url("../../font/fs-elliot-pro/FSElliotPro-HeavyItalic.woff") format("woff"), url("../../font/fs-elliot-pro/FSElliotPro-HeavyItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic; }
 
@@ -85,6 +85,14 @@ ul {
   font-size: 0; }
   ul > li {
     font-size: 1rem; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1160px !important; } }
+
+.o-header hr,
+.o-card hr {
+  margin: 30px 0; }
 
 /*------------------------------------------------------------------------------------
   00_vendor
@@ -2198,7 +2206,7 @@ html {
   display: inline-block;
   min-width: 180px;
   max-width: 100%;
-  padding: 0.8889rem 1.7778rem;
+  padding: 26px 30px;
   border-radius: 7px;
   border: none;
   box-shadow: 0 8px 23px rgba(81, 114, 221, 0.08);
@@ -2207,19 +2215,88 @@ html {
   cursor: pointer;
   text-align: center;
   white-space: nowrap;
-  font-size: .88889rem;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.3125; }
+  .c-btn-primary {
+    background-color: #FF5500;
+    color: #ffffff; }
+  .o-header .c-btn {
+    margin-top: 30px; }
 
 button.c-btn:hover {
   cursor: pointer; }
 
+a.c-btn {
+  text-decoration: none; }
+
+.o-card_body .c-img {
+  margin-right: 10px; }
+
+.c-section-speakers {
+  padding-top: 60px; }
+
+.c-ttl {
+  margin: 0; }
+  .c-ttl-main {
+    font-size: 3.75rem;
+    font-family: "FSElliotPro-Heavy", sans-serif;
+    line-height: 1; }
+  .c-ttl-heavy {
+    font-family: "FSElliotPro-Heavy", sans-serif; }
+  .c-ttl-feature {
+    margin-bottom: 60px; }
+
+.c-txt {
+  opacity: .8; }
+  .o-header .c-txt {
+    margin-top: 20px;
+    line-height: 34px; }
+
 /*------------------------------------------------------------------------------------
   04_objects
 ------------------------------------------------------------------------------------*/
+.o-card {
+  padding: 30px; }
+  .o-card_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .o-card_body-time, .o-card_body-place {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+    .o-card_body-place {
+      width: 285px; }
+
+.o-header {
+  padding: 100px 0 50px; }
+  .o-header_logos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; }
+    .o-header_logos-ib {
+      margin-right: 100px; }
+
 /*------------------------------------------------------------------------------------
   05_trumps
 ------------------------------------------------------------------------------------*/
+.color-white {
+  color: #ffffff; }
+
+.color-prim {
+  color: #FF5500; }
+
+.out {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-center {
+  text-align: center; }
+
 .f-14 {
   font-size: 0.875rem; }
 

@@ -2,9 +2,17 @@
 .c-ttl {
   margin: 0;
 
-  &-cookie {
-    color: #171717;
-    font-size: 26px;
-    line-height: 32px;
+  &-main {
+    @include font-size(60);
+    font-family: $font-weight-heavy;
+    line-height: 1;
+  }
+
+  &-heavy {
+    font-family: $font-weight-heavy;
+  }
+
+  &-feature {
+    margin-bottom: 60px;
   }
 }

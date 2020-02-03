@@ -1,0 +1,13 @@
+.o-header {
+  padding: 100px 0 50px;
+
+  &_logos {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+    &-ib {
+      margin-right: 100px;
+    }
+  }
+}

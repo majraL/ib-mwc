@@ -30,3 +30,18 @@ ul {
   }
 
 }
+
+@media (min-width: 1200px) {
+
+  .container {
+      max-width: 1160px!important;
+  }
+}
+
+hr {
+
+  .o-header &,
+  .o-card & {
+    margin: 30px 0;
+  }
+}

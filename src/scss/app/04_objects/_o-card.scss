@@ -1,0 +1,20 @@
+.o-card {
+  padding: 30px;
+
+  &_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-time,
+    &-place {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &-place {
+      width: 285px;
+    }
+  }
+}

@@ -1,10 +1,10 @@
 // Buttons
 
 // Global settings
-$btn-padding-y: .8889rem;
-$btn-padding-x: 1.7778rem;
+$btn-padding-y: 26px;
+$btn-padding-x: 30px;
 $btn-border-radius: 7px;
-$btn-font-size: 14px;
+$btn-font-size: 20px;
 $btn-font-weight: $font-weight-bold;
 
 // Primary button settings
@@ -53,11 +53,24 @@ $btn-primary-border-color-hover: $brand-primary-dark;
   cursor: pointer;
   text-align: center;
   white-space: nowrap;
-  font-size: .88889rem;
+  font-size: $btn-font-size;
   font-weight: 700;
   line-height: 1.3125;
+
+  &-primary {
+    background-color: $brand-primary;
+    color: $white;
+  }
+
+  .o-header & {
+    margin-top: 30px;
+  }
 }
 
 button.c-btn:hover {
   cursor: pointer;
+}
+
+a.c-btn {
+  text-decoration: none;
 }
