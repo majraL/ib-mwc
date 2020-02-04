@@ -33,4 +33,11 @@
     margin-right: 10px;
     margin-left: 5px;
   }
+
+  .c-list-logos & {
+
+    @media (max-width: 734px) {
+      width: 80%;
+    }
+  }
 }

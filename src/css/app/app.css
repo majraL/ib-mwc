@@ -3852,6 +3852,10 @@ textarea.form-control {
   margin-right: 10px;
   margin-left: 5px; }
 
+@media (max-width: 734px) {
+  .c-list-logos .c-img {
+    width: 80%; } }
+
 .c-list-logos {
   display: flex;
   align-items: center;
@@ -3891,7 +3895,7 @@ textarea.form-control {
     .c-list-logos .c-list_item:nth-child(n+3) {
       margin-top: 20px; } }
 
-@media only screen and (max-width: 467px) {
+@media (max-width: 374px) {
   .c-list-logos .c-list_item {
     width: 100%; }
     .c-list-logos .c-list_item:nth-child(n+1) {
