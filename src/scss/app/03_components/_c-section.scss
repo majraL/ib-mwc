@@ -1,6 +1,22 @@
 .c-section {
+  position: relative;
+  overflow: hidden;
 
   &-speakers {
     padding-top: 60px;
+  }
+
+  &-features_txt,
+  &-features_cta {
+    margin-top: 40px;
+  }
+
+  &-features {
+    padding-bottom: 60px;
+  }
+
+  &-form {
+    padding: 60px 0 70px;
+    margin-top: 40px;
   }
 }

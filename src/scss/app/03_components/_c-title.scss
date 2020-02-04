@@ -12,7 +12,29 @@
     font-family: $font-weight-heavy;
   }
 
-  &-feature {
+  &-bold {
+    font-family: $font-weight-bold;
+  }
+
+  &-speakers {
+    @include font-size(30);
+    margin-bottom: 60px;
+  }
+
+  &-37 {
+    @include font-size(37);
+    margin-bottom: 10px;
+  }
+
+  .c-list-features & {
+    margin: 0 20px;
+  }
+
+  .c-list-features .c-list_item:last-child & {
+    margin-top: 10px;
+  }
+
+  .c-section-form & {
     margin-bottom: 60px;
   }
 }

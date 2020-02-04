@@ -38,10 +38,33 @@ ul {
   }
 }
 
+br {
+
+  .c-ttl-features & {
+
+  }
+}
+
 hr {
 
   .o-header &,
   .o-card & {
     margin: 30px 0;
   }
+
+  .o-card & {
+    border-color: rgba($gray-light, .2);
+  }
+
+  .o-card-logos & {
+    margin: 40px 0;
+  }
+}
+
+%border-radius {
+  border-radius: 7px;
+}
+
+%box-shadow {
+  box-shadow: 0 2px 6px 0 rgba($black, .08);
 }

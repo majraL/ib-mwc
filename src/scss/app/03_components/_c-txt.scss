@@ -1,8 +1,28 @@
 .c-txt {
+  margin: 0;
   opacity: .8;
 
   .o-header & {
     margin-top: 20px;
     line-height: 34px;
+  }
+
+  .o-card_header & {
+    margin-top: 10px;
+  }
+
+  .c-ttl-37 ~ & {
+    @include font-size (25);
+    line-height: 35px;
+    margin-bottom: 40px;
+  }
+
+  .c-list-features & {
+    margin-bottom: 18px;
+    line-height: 22px;
+  }
+
+  .c-list-features .c-list_item:nth-child(4) & {
+    margin-bottom: 39px;
   }
 }

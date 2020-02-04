@@ -1,0 +1,45 @@
+.c-list {
+
+  .o-card-logos & {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 60px;
+  }
+
+  &-features,
+  &-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-social {
+    justify-content: flex-end;
+  }
+
+  &_item {
+
+    .c-list-features & {
+      @extend %border-radius;
+      @extend %box-shadow;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 215px;
+      height: 310px;
+      padding: 40px 10px 20px;
+      margin-bottom: 20px;
+      background-color: $white;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+
+    .c-list-social & {
+      margin: 0 7px;
+    }
+  }
+}

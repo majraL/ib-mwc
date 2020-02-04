@@ -62,8 +62,31 @@ $btn-primary-border-color-hover: $brand-primary-dark;
     color: $white;
   }
 
+  &-secondary {
+    background-color: $brand-secondary;
+    color: $white;
+  }
+
+  &-wide {
+    width: 100%;
+  }
+
   .o-header & {
     margin-top: 30px;
+  }
+
+  .c-section-features_cta & {
+    display: block;
+    width: 100%;
+    max-width: 440px;
+    padding: 35px 20px;
+    margin-top: 20px;
+    margin-left: auto;
+  }
+
+  .mwc-form & {
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
 }
 

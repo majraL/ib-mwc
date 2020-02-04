@@ -1,19 +1,31 @@
 // Link
 .c-link {
   display: inline-block;
-  color: inherit;
-  text-decoration: none;
 
-  &:hover {
-    @extend %decoration-underline;
+  .c-list-social & {
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto auto;
   }
 
-  &-underline {
-    @extend %decoration-underline;
+  .c-list-social &-twitter {
+    background-image: url("../media/img/ic-twitter.svg");
   }
-
-  &-logo {
-    max-width: 170px;
+  .c-list-social &-linkedin {
+    background-image: url("../media/img/ic-linkedin.svg");
   }
-
+  .c-list-social &-facebook {
+    background-image: url("../media/img/ic-facebook.svg");
+  }
+  .c-list-social &-github {
+    background-image: url("../media/img/ic-github.svg");
+  }
+  .c-list-social &-youtube {
+    background-image: url("../media/img/ic-youtube.svg");
+  }
+  .c-list-social &-instagram {
+    background-image: url("../media/img/ic-instagram.svg");
+  }
 }

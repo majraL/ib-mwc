@@ -1,0 +1,8 @@
+$opacity-level-list: 8;
+
+@each $size in $opacity-level-list {
+
+  .op-#{$size} {
+    opacity: $size/10;
+  }
+}

@@ -1,6 +1,15 @@
 .c-img {
 
+  &-hero {
+    margin-top: 70px;
+  }
+
   .o-card_body & {
     margin-right: 10px;
+  }
+
+  .o-card_footer & {
+    margin-right: 10px;
+    margin-left: 5px;
   }
 }

@@ -1,0 +1,29 @@
+.c-bg {
+
+  &:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 40px;
+    left: 40px;
+    border-radius: 7px;
+  }
+
+  &-blue-dark:after {
+    top: 0;
+    bottom: 200px;
+    background-color: #148997;
+  }
+
+  &-blue-light:after {
+    top: 280px;
+    bottom: 0;
+    background-color: #26CAD3;
+  }
+
+  &-green:after {
+    top: 0;
+    bottom: 0;
+    background-color: #B8DBD2;
+  }
+}

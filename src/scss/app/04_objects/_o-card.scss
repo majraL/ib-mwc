@@ -1,5 +1,9 @@
 .o-card {
+  @extend %border-radius;
+  @extend %box-shadow;
   padding: 30px;
+  margin-bottom: 40px;
+  background-color: $white;
 
   &_body {
     display: flex;
@@ -16,5 +20,26 @@
     &-place {
       width: 285px;
     }
+  }
+
+  &_footer {
+    display: flex;
+    align-items: center;
+  }
+
+  &-logos {
+    padding: 40px 50px;
+    margin-bottom: 60px;
+
+    .o-card_header {
+      @include font-size(25);
+      padding: 0 130px;
+      line-height: 40px;
+    }
+  }
+
+  &:hover {
+    background-color: #F2F7FB;
+    box-shadow: none;
   }
 }
