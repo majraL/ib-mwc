@@ -36,7 +36,13 @@
 
     @include laptopDown {
       @include font-size(30);
-      text-align: left!important;
+    }
+
+    .c-section-form & {
+
+      @include tabletDown {
+        text-align: left!important;
+      }
     }
   }
 

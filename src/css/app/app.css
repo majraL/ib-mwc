@@ -3792,7 +3792,8 @@ a.text-dark:hover, a.text-dark:focus {
         margin-left: auto; } }
     @media only screen and (max-width: 599px) {
       .c-section-features_cta .c-btn {
-        max-width: 100%; } }
+        width: 100%;
+        max-width: 440px; } }
   .mwc-form .c-btn {
     padding-top: 35px;
     padding-bottom: 35px; }
@@ -3972,7 +3973,9 @@ textarea.form-control {
     margin-bottom: 10px; }
     @media only screen and (max-width: 1024px) {
       .c-ttl-37 {
-        font-size: 1.875rem;
+        font-size: 1.875rem; } }
+    @media only screen and (max-width: 599px) {
+      .c-section-form .c-ttl-37 {
         text-align: left !important; } }
   .c-list-features .c-ttl {
     margin: 0 20px; }
@@ -4005,7 +4008,7 @@ textarea.form-control {
         font-size: 1.25rem;
         line-height: 28px;
         margin-bottom: 20px;
-        text-align: left; } }
+        text-align: left !important; } }
   .c-list-features .c-txt {
     margin-bottom: 18px;
     line-height: 22px; }
@@ -4052,7 +4055,7 @@ textarea.form-control {
       @media only screen and (max-width: 1024px) {
         .o-card-logos .o-card_header {
           padding: 0;
-          text-align: left; } }
+          text-align: left !important; } }
     @media only screen and (max-width: 1024px) {
       .o-card-logos {
         padding: 20px; } }
@@ -4096,9 +4099,6 @@ textarea.form-control {
 
 .text-uppercase {
   text-transform: uppercase; }
-
-.text-center {
-  text-align: center; }
 
 .f-14 {
   font-size: 0.875rem; }
