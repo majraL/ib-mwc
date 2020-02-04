@@ -95,10 +95,6 @@ ul {
   ul > li {
     font-size: 1rem; }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1160px !important; } }
-
 strong {
   font-family: "FSElliotPro-Bold", sans-serif; }
 
