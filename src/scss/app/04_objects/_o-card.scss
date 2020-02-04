@@ -44,6 +44,11 @@
     padding: 40px 50px;
     margin-bottom: 60px;
 
+    &:hover {
+      background-color: $white!important;
+      box-shadow: $box-shadow!important;
+    }
+
     .o-card_header {
       @include font-size(25);
       padding: 0 130px;

@@ -38,6 +38,13 @@
       @include font-size(30);
     }
 
+    .c-section-features & {
+
+      @include laptopDown {
+        text-align: left!important;
+      }
+    }
+
     .c-section-form & {
 
       @include tabletDown {

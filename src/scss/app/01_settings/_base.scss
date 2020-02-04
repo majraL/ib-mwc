@@ -88,6 +88,10 @@ hr {
 
   .o-card-logos & {
     margin: 40px 0;
+
+    @include tabletDown {
+      margin: 20px 0;
+    }
   }
 }
 
@@ -98,3 +102,5 @@ hr {
 %box-shadow {
   box-shadow: 0 2px 6px 0 rgba($black, .08);
 }
+
+$box-shadow: 0 2px 6px 0 rgba($black, .08);
