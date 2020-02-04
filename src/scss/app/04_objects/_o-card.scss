@@ -5,20 +5,33 @@
   margin-bottom: 40px;
   background-color: $white;
 
+  @include laptopDown {
+    padding: 20px;
+  }
+
   &_body {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    @include tabletDown {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
     &-time,
     &-place {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-start;
     }
 
     &-place {
       width: 285px;
+
+      @include tabletDown {
+        margin-top: 20px;
+      }
     }
   }
 
@@ -35,6 +48,15 @@
       @include font-size(25);
       padding: 0 130px;
       line-height: 40px;
+
+      @include laptopDown {
+        padding: 0;
+        text-align: left;
+      }
+    }
+
+    @include laptopDown {
+      padding: 20px;
     }
   }
 

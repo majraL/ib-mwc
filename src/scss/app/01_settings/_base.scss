@@ -38,18 +38,48 @@ ul {
   }
 }
 
+strong {
+  font-family: $font-weight-bold;
+}
+
 br {
 
-  .c-ttl-features & {
+  .o-card_footer & {
 
+    @include laptop {
+      display: none;
+    }
+  }
+
+  .c-ttl-37 & {
+    @include laptopDown {
+      display: none;
+    }
   }
 }
 
 hr {
+  outline: none;
 
   .o-header &,
   .o-card & {
     margin: 30px 0;
+
+    @include tabletDown {
+      margin: 20px 0;
+    }
+  }
+
+  .o-header & {
+    width: 150px;
+    height: 1px;
+    border: none;
+    background-color: $brand-primary;
+
+    @include laptopDown {
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 
   .o-card & {

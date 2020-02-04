@@ -7,6 +7,14 @@
     line-height: 34px;
   }
 
+  .o-header &.f-22 {
+
+    @include laptopDown {
+      @include font-size(20);
+      text-align: center;
+    }
+  }
+
   .o-card_header & {
     margin-top: 10px;
   }
@@ -15,6 +23,13 @@
     @include font-size (25);
     line-height: 35px;
     margin-bottom: 40px;
+
+    @include laptopDown {
+      @include font-size(20);
+      line-height: 28px;
+      margin-bottom: 20px;
+      text-align: left;
+    }
   }
 
   .c-list-features & {

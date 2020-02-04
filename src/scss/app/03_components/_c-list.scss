@@ -14,8 +14,20 @@
     justify-content: space-between;
   }
 
+  &-features {
+
+    @include laptopDown {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+
   &-social {
     justify-content: flex-end;
+
+    @include laptopDown {
+      justify-content: center;
+    }
   }
 
   &_item {
@@ -35,6 +47,19 @@
 
       &:not(:last-child) {
         margin-right: 20px;
+      }
+
+      @include laptopDown {
+        width: 300px;
+        height: 250px;
+
+        &:not(:last-child) {
+          margin-right: 0;
+        }
+      }
+
+      @include tabletDown {
+        width: 100%;
       }
     }
 

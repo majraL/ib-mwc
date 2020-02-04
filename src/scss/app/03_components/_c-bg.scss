@@ -7,6 +7,11 @@
     right: 40px;
     left: 40px;
     border-radius: 7px;
+
+    @include desktopDown {
+      right: 0;
+      left: 0;
+    }
   }
 
   &-blue-dark:after {
@@ -19,6 +24,10 @@
     top: 280px;
     bottom: 0;
     background-color: #26CAD3;
+
+    @include tabletDown {
+      top: 300px;
+    }
   }
 
   &-green:after {

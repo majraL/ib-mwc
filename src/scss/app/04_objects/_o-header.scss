@@ -1,6 +1,10 @@
 .o-header {
   padding: 100px 0 50px;
 
+  @include laptopDown {
+    padding: 30px 0 40px;
+  }
+
   &_logos {
     display: flex;
     align-items: center;
@@ -8,6 +12,14 @@
 
     &-ib {
       margin-right: 100px;
+
+      @include laptopDown {
+        margin-right: 40px;
+      }
+    }
+
+    @include laptopDown {
+      justify-content: center;
     }
   }
 }

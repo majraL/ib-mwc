@@ -1,7 +1,7 @@
 // Buttons
 
 // Global settings
-$btn-padding-y: 26px;
+$btn-padding-y: 25px;
 $btn-padding-x: 30px;
 $btn-border-radius: 7px;
 $btn-font-size: 20px;
@@ -73,6 +73,17 @@ $btn-primary-border-color-hover: $brand-primary-dark;
 
   .o-header & {
     margin-top: 30px;
+
+    @include laptopDown {
+      display: block;
+      width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @include tabletDown {
+      width: 100%;
+    }
   }
 
   .c-section-features_cta & {
@@ -82,11 +93,27 @@ $btn-primary-border-color-hover: $brand-primary-dark;
     padding: 35px 20px;
     margin-top: 20px;
     margin-left: auto;
+
+    @include laptopDown {
+      display: block;
+      width: 70%;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @include tabletDown {
+      max-width: 100%;
+    }
   }
 
   .mwc-form & {
     padding-top: 35px;
     padding-bottom: 35px;
+
+    @include laptopDown {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
   }
 }
 

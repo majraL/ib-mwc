@@ -4,19 +4,36 @@
 
   &-speakers {
     padding-top: 60px;
+
+    @include laptopDown {
+      padding-top: 30px;
+    }
   }
 
   &-features_txt,
   &-features_cta {
     margin-top: 40px;
+
+    @include laptopDown {
+      margin-top: 0;
+    }
   }
 
   &-features {
     padding-bottom: 60px;
+
+    @include laptopDown {
+      padding-bottom: 30px;
+    }
   }
 
   &-form {
     padding: 60px 0 70px;
     margin-top: 40px;
+
+    @include laptopDown {
+      padding: 30px 0;
+      margin-top: 20px;
+    }
   }
 }
