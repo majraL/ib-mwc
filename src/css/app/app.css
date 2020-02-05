@@ -3987,7 +3987,7 @@ textarea.form-control {
   margin-right: 10px; }
 
 .o-card_footer .c-img {
-  margin-right: 10px;
+  margin-right: 15px;
   margin-left: 5px; }
 
 @media (max-width: 734px) {
@@ -4172,7 +4172,8 @@ a.c-link {
       .c-section-form .c-ttl-37 {
         text-align: left !important; } }
   .c-list-features .c-ttl {
-    margin: 0 20px; }
+    margin: 0 20px;
+    font-family: "FSElliotPro-Bold", sans-serif; }
   .c-list-features .c-list_item:last-child .c-ttl {
     margin-top: 10px; }
   .c-section-form .c-ttl {
