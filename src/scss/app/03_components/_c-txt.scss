@@ -40,4 +40,10 @@
   .c-list-features .c-list_item:nth-child(4) & {
     margin-bottom: 39px;
   }
+
+  .p-thankYou & {
+    max-width: 630px;
+    margin: 0 auto;
+    line-height: 34px;
+  }
 }

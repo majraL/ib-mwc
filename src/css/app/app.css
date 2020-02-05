@@ -138,6 +138,23 @@ hr {
 .c-list-features .c-list_item, .o-card {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05), 0 3px 6px rgba(0, 0, 0, 0.12); }
 
+.p-thankYou {
+  height: 100vh; }
+
+.main-content {
+  height: calc(100% - 104px);
+  padding-top: 100px; }
+  @media only screen and (max-width: 1024px) {
+    .main-content {
+      height: calc(100% - 160px);
+      padding-top: 50px; } }
+
+.o-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 304px); }
+
 /*------------------------------------------------------------------------------------
   00_vendor
 ------------------------------------------------------------------------------------*/
@@ -3981,6 +3998,10 @@ textarea.form-control {
   display: block;
   width: 100%; }
 
+.o-logo .c-img {
+  display: block;
+  margin: auto; }
+
 .c-list-logos {
   display: flex;
   align-items: center;
@@ -4159,6 +4180,8 @@ a.c-link {
     @media only screen and (max-width: 1024px) {
       .c-section-form .c-ttl {
         margin-bottom: 30px; } }
+  .p-thankYou .c-ttl {
+    margin-bottom: 30px; }
 
 .c-txt {
   margin: 0;
@@ -4187,6 +4210,10 @@ a.c-link {
     line-height: 22px; }
   .c-list-features .c-list_item:nth-child(4) .c-txt {
     margin-bottom: 39px; }
+  .p-thankYou .c-txt {
+    max-width: 630px;
+    margin: 0 auto;
+    line-height: 34px; }
 
 /*------------------------------------------------------------------------------------
   04_objects

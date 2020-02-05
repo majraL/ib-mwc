@@ -1,0 +1,78 @@
+<!--Load Main HTML Layout-->
+{% extends "src/html/app/base.html" %}
+
+<!--Define Site Name-->
+{% set siteName = 'MWC' %}
+<!-- (should stay the same on all pages) -->
+
+<!--Define Main Schema-->
+{% set schemaType = 'Article' %}
+
+<!--Define OGP type-->
+{% set opgType = 'article' %}
+
+<!--Define Twitter type and handles-->
+{% set twitterCardType = 'product' %}
+{% set twitterNameAuthor = '@author_handle' %}
+{% set twitterSite = '@site_handle' %}
+
+<!--Define Page Details-->
+{% set pageTitle = 'MWC' %}
+{% set pageTitleName = 'MWC' %}
+{% set pageDescription = 'Page description. No longer than 155 characters.' %}
+{% set pageUrl = 'http://www.example.com/' %}
+{% set pageImage = '../https://cf-cdn.infobip.com/assets/mwc2020/media/img/ogp.png' %}
+
+
+<!--Define body class-->
+{% set bodyClass = 'p-thankYou' %}
+
+<!--Main Content-->
+{% block content %}
+
+<div class="container main-content">
+  <div class="row">
+    <div class="col-12">
+      <div class="o-logo">
+        <img class="c-img" src="https://cf-cdn.infobip.com/assets/mwc2020/media/img/logo-ib.svg" alt="infobip logo">
+      </div>
+
+      <div class="o-body">
+        <h2 class="c-ttl c-ttl-main text-center">Thank You!</h2>
+        <p class="c-txt f-22 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="o-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 order-lg-3">
+        <ul class="c-list c-list-social">
+          <li class="c-list_item">
+            <a class="c-link c-link-twitter" href="#" target="_blank"></a>
+          </li>
+          <li class="c-list_item">
+            <a class="c-link c-link-linkedin" href="#" target="_blank"></a>
+          </li>
+          <li class="c-list_item">
+            <a class="c-link c-link-facebook" href="#" target="_blank"></a>
+          </li>
+          <li class="c-list_item">
+            <a class="c-link c-link-github" href="#" target="_blank"></a>
+          </li>
+          <li class="c-list_item">
+            <a class="c-link c-link-youtube" href="#" target="_blank"></a>
+          </li>
+          <li class="c-list_item">
+            <a class="c-link c-link-instagram" href="#" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-6 text-center mt-3 mt-lg-0 text-lg-left">Copyright © 2006-2020 Infobip ltd.</div>
+    </div>
+  </div>
+</footer>
+
+{% endblock %}
