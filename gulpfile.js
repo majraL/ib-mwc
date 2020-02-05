@@ -79,12 +79,13 @@ gulp.task('html', function () {
 gulp.task('js', function () {
   return gulp.src([
     path.npm + 'jquery/dist/jquery.js',
-    'src/scripts/**/*.js'
+    path.npm + 'bootstrap/dist/js/bootstrap.js',
+    'src/js/**/*.js'
   ])
 
     .pipe(babel({ compact: false }))
     .pipe(concat('app.js'))
-    .pipe(gulp.dest('src/js/app/'))
+    // .pipe(gulp.dest('src/js/app/'))
 
     .pipe(concat('main.js'))
     .pipe(uglify().on('error', function (err) { return notify().write(err); }))

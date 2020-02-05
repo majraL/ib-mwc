@@ -2,8 +2,15 @@
   @extend %border-radius;
   @extend %box-shadow;
   padding: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   background-color: $white;
+  transform: scale(1);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+  &:hover {
+    box-shadow: $box-shadow-hover;
+    transform: scale(1.02);
+  }
 
   @include laptopDown {
     padding: 20px;
@@ -14,9 +21,26 @@
     align-items: center;
     justify-content: space-between;
 
+    @include tablet {
+
+      @include laptopDown {
+        justify-content: flex-start;
+      }
+    }
+
     @include tabletDown {
       align-items: flex-start;
       flex-direction: column;
+    }
+
+    &-time {
+
+      @include tablet {
+
+        @include laptopDown {
+          margin-right: 30px;
+        }
+      }
     }
 
     &-time,
@@ -44,10 +68,10 @@
     padding: 40px 50px;
     margin-bottom: 60px;
 
-    &:hover {
-      background-color: $white!important;
-      box-shadow: $box-shadow!important;
-    }
+    // &:hover {
+    //   box-shadow: $box-shadow!important;
+    //   transform: scale(1)!important;
+    // }
 
     .o-card_header {
       @include font-size(25);
@@ -63,10 +87,5 @@
     @include laptopDown {
       padding: 20px;
     }
-  }
-
-  &:hover {
-    background-color: #F2F7FB;
-    box-shadow: none;
   }
 }

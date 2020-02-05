@@ -47,7 +47,7 @@ $btn-primary-border-color-hover: $brand-primary-dark;
   padding: $btn-padding-y $btn-padding-x;
   border-radius: $btn-border-radius;
   border: none;
-  box-shadow: 0 8px 23px rgba(81,114,221,.08);
+  box-shadow: 0 8px 23px rgba(81,114,221, .08);
   transition: all .2s cubic-bezier(.455,.03,.515,.955);
   outline: none;
   cursor: pointer;
@@ -60,11 +60,21 @@ $btn-primary-border-color-hover: $brand-primary-dark;
   &-primary {
     background-color: $brand-primary;
     color: $white;
+
+    &:hover {
+      background-color: #f75903;
+      box-shadow: 2px 2px 16px 0 #f4c9b9;
+    }
   }
 
   &-secondary {
-    background-color: $brand-secondary;
+    background-color: #263746;
     color: $white;
+
+    &:hover {
+      background-color: #171717;
+      box-shadow: 2px 2px 16px 0 #008087;
+    }
   }
 
   &-wide {

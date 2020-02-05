@@ -34,4 +34,21 @@
   .c-list-social &-instagram {
     background-image: url("../media/img/ic-instagram.svg");
   }
+
+  .o-card_body-place & {
+    color: #171717;
+
+    &:hover {
+      color: $brand-primary;
+      text-decoration: underline;
+    }
+  }
+
+  .o-card_footer &:hover {
+    text-decoration: underline;
+  }
+}
+
+a.c-link {
+  text-decoration: none;
 }
