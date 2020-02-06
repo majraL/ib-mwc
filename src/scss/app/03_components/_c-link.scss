@@ -47,6 +47,13 @@
   .o-card_footer &:hover {
     text-decoration: underline;
   }
+
+  .form-label & {
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 a.c-link {

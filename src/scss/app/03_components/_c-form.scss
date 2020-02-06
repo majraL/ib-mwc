@@ -98,6 +98,11 @@
     @extend %border-radius;
     height: calc(3.5rem + 2px);
     padding: .375rem .75rem;
+
+    .form-privacy & {
+      width: 44px;
+      height: 17px;
+    }
   }
 }
 
