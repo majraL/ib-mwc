@@ -1,3 +1,8 @@
-.modal-dialog.modal-dialog-centered {
-  max-width: 700px;
+.modal {
+  max-width: 700px!important;
+  border-radius: $border-radius!important;
+}
+
+.close-modal {
+  display: none!important;
 }

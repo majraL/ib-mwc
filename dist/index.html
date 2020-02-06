@@ -16,6 +16,11 @@
 
   <link rel="icon" type="image/x-icon" href="">
   <link rel="stylesheet" href="css/main.min.css">
+
+  <script src="//cf-cdn.infobip.com/assets/js/all-new.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
 </head>
 
 <body class="p-homepage">
@@ -269,7 +274,7 @@
           <br> <span class="f-25 pt-2 d-inline-block">Hall 8.1, at Stand F49</span></p>
       </div>
       <div class="col-lg-5 c-section-features_cta">
-        <a class="c-btn c-btn-secondary" href="#" data-toggle="modal" data-target="#exampleModalCenter">VIEW STAND LOCATION</a>
+        <a id="modal-open" class="c-btn c-btn-secondary" href="#stand-location">VIEW STAND LOCATION</a>
       </div>
     </div>
   </div>
@@ -368,18 +373,35 @@
 
 
 
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button> -->
-        <div class="modal-body">
-          <img class="c-img" src="https://cf-cdn.infobip.com/assets/mwc2020/media/map-2.png" alt="infobip stand location map">
-        </div>
-      </div>
+  <div id="ex1" class="modal">
+    <div class="modal-body">
+      <img class="c-img" src="https://cf-cdn.infobip.com/assets/mwc2020/media/map-2.png" alt="infobip stand location map">
     </div>
   </div>
 
-  <script type="text/javascript" src="js/main.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#modal-open").on("click", function() {
+        $("#ex1").modal({
+          fadeDuration: 275
+        });
+      });
+
+      $("[data-form-trigger]").on('click', function(event) {
+
+        if (this.hash !== "") {
+          event.preventDefault();
+
+          var hash = this.hash;
+
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+  </script>
 </body>
 </html>

@@ -4295,8 +4295,12 @@ a.c-link {
       .o-header_logos {
         justify-content: center; } }
 
-.modal-dialog.modal-dialog-centered {
-  max-width: 700px; }
+.modal {
+  max-width: 700px !important;
+  border-radius: 0.25rem !important; }
+
+.close-modal {
+  display: none !important; }
 
 /*------------------------------------------------------------------------------------
   05_trumps
