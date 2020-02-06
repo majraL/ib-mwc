@@ -1,8 +1,19 @@
 .modal {
+  width: 100%!important;
   max-width: 700px!important;
   border-radius: $border-radius!important;
+  padding: 10px!important;
+
+  &-body {
+    padding: .25rem!important;
+  }
 }
 
 .close-modal {
-  display: none!important;
+  right: 10px!important;
+  top: 10px!important;
+}
+
+.jquery-modal.blocker.current {
+  padding: 10px!important;
 }
