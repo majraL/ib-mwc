@@ -1,5 +1,6 @@
 .o-header {
   padding: 100px 0 50px;
+  overflow: hidden;
 
   @include laptopDown {
     padding: 30px 0 40px;
