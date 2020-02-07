@@ -4107,6 +4107,11 @@ textarea.form-control {
     background-image: url("https://cf-cdn.infobip.com/assets/mwc2020/media/img/ic-youtube.svg"); }
   .c-list-social .c-link-instagram {
     background-image: url("https://cf-cdn.infobip.com/assets/mwc2020/media/img/ic-instagram.svg"); }
+  .o-card_header .c-link {
+    color: #171717; }
+    .o-card_header .c-link:hover, .o-card_header .c-link:focus {
+      color: #FF5500;
+      text-decoration: underline; }
   .o-card_body-place .c-link {
     color: #171717; }
     .o-card_body-place .c-link:hover {

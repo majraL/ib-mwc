@@ -35,6 +35,16 @@
     background-image: url("https://cf-cdn.infobip.com/assets/mwc2020/media/img/ic-instagram.svg");
   }
 
+  .o-card_header & {
+    color: #171717;
+
+    &:hover,
+    &:focus {
+      color: $brand-primary;
+      text-decoration: underline;
+    }
+  }
+
   .o-card_body-place & {
     color: #171717;
 
