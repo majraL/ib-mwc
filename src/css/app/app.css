@@ -3964,7 +3964,8 @@ a.c-btn {
   padding: .375rem .75rem; }
   .form-privacy .form-control {
     width: 44px;
-    height: 17px; }
+    height: 17px;
+    padding: .75rem; }
 
 textarea.form-control {
   resize: vertical; }
