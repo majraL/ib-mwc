@@ -1,4 +1,17 @@
 // Titles
+
+$h1-min_font: 40px;
+$h1-max_font: 60px;
+
+$h2-min_font: 30px;
+$h2-max_font: 37px;
+
+$h3-min_font: 30px;
+$h3-max_font: 30px;
+
+// $h4-min_font: 40px;
+// $h4-max_font: 60px;
+
 .c-ttl {
   margin: 0;
 
@@ -73,4 +86,28 @@
   .p-thankYou & {
     margin-bottom: 30px;
   }
+
+  &-h1 {
+    font-family: $font-weight-heavy;
+    @include fluid-type($min_width, $max_width, $h1-min_font, $h1-max_font);
+  }
+
+  &-h2 {
+    font-family: $font-weight-heavy;
+    @include fluid-type($min_width, $max_width, $h2-min_font, $h2-max_font);
+
+    @include laptopDown {
+      text-align: left;
+    }
+  }
+
+  &-h3 {
+    font-family: $font-weight-heavy;
+    @include fluid-type($min_width, $max_width, $h3-min_font, $h3-max_font);
+  }
+
+  // &-h4 {
+  //   font-family: $font-weight-bold;
+  //   @include fluid-type($min_width, $max_width, $h4-min_font, $h4-max_font);
+  // }
 }
